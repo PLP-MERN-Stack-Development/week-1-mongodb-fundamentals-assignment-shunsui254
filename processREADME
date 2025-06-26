@@ -1,0 +1,12 @@
+# MongoDB Local Setup
+
+## How to Run
+
+1. **Start MongoDB**:
+   - Run `mongod` in a terminal to start the server on `mongodb://localhost:27017`.
+
+2. **Insert Data**:
+   - Run `node insert_books.js` to insert 10 books into the `plp_bookstore` database.
+
+3. **Run Queries**:
+   - Start `mongosh`, switch to `plp_bookstore` with `use plp_bookstore`, and run `load('queries.js')`.
